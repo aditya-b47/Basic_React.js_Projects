@@ -19,7 +19,7 @@ const Accordian = () => {
 
     console.log(findIndexOfCurrentId);
 
-    if(findIndexOfCurrentId === -1) copyMultiple.push(getCurrentId)
+    if(findIndexOfCurrentId === -1) {copyMultiple.push(getCurrentId)}
       else copyMultiple.splice(findIndexOfCurrentId, 1)
 
     setMultiple(copyMultiple)
